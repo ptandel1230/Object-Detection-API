@@ -10,7 +10,7 @@ It uses a Faster R-CNN (ResNet50-FPN) model and returns detected objects as JSON
 - Confidence filtering (default: score > 0.5)
 - Docker support (in progress)
 
-##JSON EXAMPLE
+## JSON EXAMPLE
 [
   {"label": "person", "score": 0.92, "box": [x1, y1, x2, y2]},
   {"label": "car", "score": 0.81, "box": [x1, y1, x2, y2]}
